@@ -1,0 +1,35 @@
+.footerWrapper{
+    background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    flex-direction: column;
+}
+
+.footerUpper{
+    width: 80%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.408);
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2rem 0;
+}
+
+.footerUpper .logo{
+    width: 40%;
+}
+
+.footerUpper .links{
+    width: 40%;
+
+}
+
+.footerLower{
+    width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2rem 0;
+}

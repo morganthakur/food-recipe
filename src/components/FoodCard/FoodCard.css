@@ -1,0 +1,25 @@
+.foodCard{
+    width: 100%;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.foodCard img{
+    /* object-fit: cover; */
+    width: 100%;
+}
+.content{
+    width: 70%;
+    box-sizing: border-box;
+    align-self: flex-start;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+
+}
+
+.content p{
+    font-weight: bold;
+    /* font-size: 1.5rem; */
+}

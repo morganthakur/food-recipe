@@ -1,0 +1,42 @@
+.LatestRecipeCard{
+    border: 1px solid rgba(128, 128, 128, 0.658);
+}
+
+.LatestRecipeCard img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.discription{
+    padding: 3rem 3rem;
+    /* box-sizing: border-box; */
+}
+.discription p{
+    line-height: 35px;
+    margin-top: 1rem;
+    color: gray;
+}
+.userProfile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.user img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.userProfile span{
+    color: gray;
+}

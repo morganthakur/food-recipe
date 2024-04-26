@@ -1,0 +1,28 @@
+.curatedCardWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.curatedCardWrapper button{
+    all: unset;
+    border: 1px solid red;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 160px;
+    margin-top: 1rem;
+}
+
+.cardConent{
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.cardConent p{
+    font-weight: bold;
+}
